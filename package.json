@@ -1,0 +1,30 @@
+{
+  "name": "g-group-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TruongCongBach/G-Group-Interview.git"
+  },
+  "keywords": [
+    "git",
+    "push",
+    "-u",
+    "origin",
+    "main"
+  ],
+  "author": "TruongCongBach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TruongCongBach/G-Group-Interview/issues"
+  },
+  "homepage": "https://github.com/TruongCongBach/G-Group-Interview#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1"
+  }
+}
