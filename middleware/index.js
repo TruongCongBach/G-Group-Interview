@@ -6,7 +6,7 @@ function auth(request, response, next) {
     const data = request.query.data;
 
     if (request.headers.authorization !== token) {
-        response.sendStatus(400);
+        return response.sendStatus(400);
     }
 
     request.userReq = new UserRequest(ip, data)
